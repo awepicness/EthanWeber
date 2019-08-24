@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/EthanWeberWebsite/.vs/EthanWeberWebsite
+/EthanWeberWebsite/EthanWeberWebsite/bin
+/EthanWeberWebsite/EthanWeberWebsite/obj/Debug

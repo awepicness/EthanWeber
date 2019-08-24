@@ -1,0 +1,25 @@
+﻿@using EthanWeberWebsite.Models
+<div class="jumbotron">
+    <h1>@Constants.ApplicationName</h1>
+    <p class="lead">Hi! My name's Ethan Weber, and this is my personal website. Let me show you around!</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>About Me</h2>
+        <p>
+            See here if you want to view more details about who I am and my experiences!
+        </p>
+        <p>@Html.ActionLink("About Me", "About", "Home", new {}, new { @class = "btn btn-info"})</p>
+    </div>
+    <div class="col-md-4">
+        <h2>My Projects</h2>
+        <p>Interested to see what I've worked on? Click here if you want to see projects I've been a part of!</p>
+        <p>@Html.ActionLink("My Projects", "Projects", "Home", new {}, new { @class = "btn btn-info"})</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Contact Me</h2>
+        <p>If you would like to reach out to me, my public contact information is listed here.</p>
+        <p>@Html.ActionLink("Contact Me", "Contact", "Home", new {}, new { @class = "btn btn-info"})</p>
+    </div>
+</div>
