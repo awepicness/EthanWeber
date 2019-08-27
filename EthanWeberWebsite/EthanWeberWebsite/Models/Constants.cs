@@ -9,5 +9,6 @@ namespace EthanWeberWebsite.Models
     {
         public const string ApplicationName = "Ethan Weber's Website";
         public const string MolexLink = "https://www.molex.com/molex/about/CompanyInfoMolex.action";
+        public const string GithubLink = "https://github.com/ethanrweber";
     }
 }

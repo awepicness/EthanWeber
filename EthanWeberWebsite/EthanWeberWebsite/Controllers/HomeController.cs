@@ -22,6 +22,13 @@ namespace EthanWeberWebsite.Controllers
             return View();
         }
 
+        public ActionResult Projects()
+        {
+            ViewBag.Title = "Projects";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Title = "Contact";
